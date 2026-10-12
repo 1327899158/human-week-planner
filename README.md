@@ -1,2 +1,19 @@
-# human-week-planner
-Mobile weekly planner with editable schedules, memos and browser-local backups.
+# 一周计划
+
+适合手机使用的周计划与备忘录，纯静态 HTML，无需安装依赖。
+
+- 调整任务、时间和星期，标记完成或跳过。
+- 课程与恢复时段默认固定，批量调整会保留它们。
+- 备忘录支持随手记、编辑、搜索、分类、置顶、完成和回收站。
+- 记录每日睡眠、精力和复盘。
+- 导出 / 导入 JSON 备份，也能下载包含当前数据的 HTML。
+
+所有填写内容保存在当前设备浏览器的 localStorage。GitHub Pages 仅托管网页，手机和电脑的数据不会自动同步。更换设备时，请导出备份后导入；清理浏览器数据前先备份。
+
+## GitHub Pages
+
+仓库 Settings → Pages → Deploy from a branch → main → / (root) → Save。
+
+首页为 `index.html`，`.nojekyll` 用于直接发布静态文件。
+
+手机浏览器打开发布地址后，可通过浏览器菜单添加到主屏幕。网页需要首次加载后才能使用，不提供离线缓存或系统推送提醒。
